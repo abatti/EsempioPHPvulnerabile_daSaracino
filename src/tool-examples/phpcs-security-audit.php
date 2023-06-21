@@ -15,7 +15,7 @@ preg_replace("aaa", $_GET['a'], 'ababaaa');
 
 // BadFunctions
 // RIGA ORIGINALE, SEGNALATA COME CHIAMATA SENZA SALVARE OUTPUT.... md5();
-$miaVariabile = md5();  // CORREZIONE DI AB (con Edit da Github)
+$ancoraMiaVariabile = md5();  // CORREZIONE DI AB (con Edit da Github)
 
 phpinfo();
 create_function($a);
