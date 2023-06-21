@@ -14,7 +14,9 @@ preg_replace("aaa", $_GET['a'], 'ababaaa');
 
 
 // BadFunctions
-md5();
+// RIGA ORIGINALE, SEGNALATA COME CHIAMATA SENZA SALVARE OUTPUT.... md5();
+$miaVariabile = md5();  // CORREZIONE DI AB (con Edit da Github)
+
 phpinfo();
 create_function($a);
 ftp_exec($a);
